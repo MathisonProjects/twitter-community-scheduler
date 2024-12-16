@@ -1,0 +1,17 @@
+{
+  "name": "mp-twitter-poster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "A Node.js application for auto posting to Twitter",
+  "dependencies": {
+    "twitter-api-v2": "^1.10.0",
+    "dotenv": "^10.0.0",
+    "node-schedule": "^2.1.0"
+  }
+}
